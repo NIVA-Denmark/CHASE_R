@@ -1,0 +1,97 @@
+Waterbody;WB_name;Matrix;Substance;Threshold;Status;Units
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_104-40-5 - 4-nonylphenol;2;0.005;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_107-06-2 - 1,2-Dichloroethane;10;0.05;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_117-81-7 - Di(2-ethylhexyl)phthalate (DEHP);1.3;0.025;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_118-74-1 - Hexachlorobenzene;10;0.13;µg/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_118-74-1 - Hexachlorobenzene;0.05;0.0025;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_120-12-7 - Anthracene;0.4;0.005;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_140-66-9 - Octylphenol (4-(1,1',3,3'-tetramethylbutyl)-phenol);0.01;0.005;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_206-44-0 - Fluoranthene;1;0.005;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_50-29-3 - DDT, p,p';;0.068;
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_50-32-8 - Benzo(a)pyrene;0.1;0.005;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_608-93-5 - Pentachlorobenzene;367;0.01;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_608-93-5 - Pentachlorobenzene;0.0007;0.0025;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_67-66-3 - Trichloromethane;2.5;0.24;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_71-43-2 - Benzene;50;0.1;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;87.5;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_7439-92-1 - Lead and its compounds;7.2;1.08;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;87.22;µg/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_7439-97-6 - Mercury and its compounds;0.07;0.025;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7440-02-0 - Nickel and its compounds;730;367;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_7440-02-0 - Nickel and its compounds;20;10.75;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;81.44;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_7440-43-9 - Cadmium and its compounds;0.2;0.01;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_75-09-2 - Dichloromethane;20;0.05;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_87-68-3 - Hexachlorobutadiene;55;0.0048;µg/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_87-86-5 - Pentachlorophenol;1;0.2;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Water;CAS_91-20-3 - Naphthalene;1.2;0.005;µg/l
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_118-74-1 - Hexachlorobenzene;10;0.73;µg/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_50-29-3 - DDT, p,p';;0.268;
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_608-93-5 - Pentachlorobenzene;367;0.08;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;56.8;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;12.94;µg/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7440-02-0 - Nickel and its compounds;730;254.83;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;202;ug/kg
+EEEE_1;Coastal water of Narva-Kunda Bay;Biota ;CAS_87-68-3 - Hexachlorobutadiene;55;0.25;µg/kg
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_118-74-1 - Hexachlorobenzene;10;0.12;µg/kg
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_50-29-3 - DDT, p,p';;0.13;
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_608-93-5 - Pentachlorobenzene;367;0.006;ug/kg
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;100.5;ug/kg
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;88.75;µg/kg
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_7440-02-0 - Nickel and its compounds;730;251.5;ug/kg
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;63.5;ug/kg
+EEEE_3;Coastal water of Hara Bay;Biota ;CAS_87-68-3 - Hexachlorobutadiene;55;0.004;µg/kg
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_118-74-1 - Hexachlorobenzene;10;0.14;µg/kg
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_50-29-3 - DDT, p,p';;0.01;
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_608-93-5 - Pentachlorobenzene;367;0.012;ug/kg
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;66.5;ug/kg
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;62.25;µg/kg
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_7440-02-0 - Nickel and its compounds;730;331.5;ug/kg
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;20.5;ug/kg
+EEEE_4;Coastal water of Kolga Bay;Biota ;CAS_87-68-3 - Hexachlorobutadiene;55;0.006;µg/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_104-40-5 - 4-nonylphenol;2;0.005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_107-06-2 - 1,2-Dichloroethane;10;0.5;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_117-81-7 - Di(2-ethylhexyl)phthalate (DEHP);1.3;0.5;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_118-74-1 - Hexachlorobenzene;10;0.33;µg/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_120-12-7 - Anthracene;0.4;0.005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_140-66-9 - Octylphenol (4-(1,1',3,3'-tetramethylbutyl)-phenol);0.01;0.005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_1582-09-8 - Trifluralin;0.03;0.005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_15972-60-8 - Alachlor;0.7;0.025;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_1912-24-9 - Atrazine;2;0.025;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_206-44-0 - Fluoranthene;1;0.005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_2921-88-2 - Chlorpyrifos;0.1;0.01;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_330-54-1 - Diuron;1.8;0.025;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_34123-59-6 - Isoproturon;1;0.025;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_36643-28-4 - Tributyltin-cation;0.0015;0.0005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_470-90-6 - Chlorfenvinphos;0.3;0.01;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_50-29-3 - DDT, p,p';;0.24;
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_50-32-8 - Benzo(a)pyrene;0.1;0.005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_608-93-5 - Pentachlorobenzene;367;0.098;ug/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_67-66-3 - Trichloromethane;2.5;0.1;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_71-43-2 - Benzene;50;0.1;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;66.5;ug/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_7439-92-1 - Lead and its compounds;7.2;0.25;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;12.05;µg/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_7439-97-6 - Mercury and its compounds;0.07;0.05;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_7440-02-0 - Nickel and its compounds;730;680;ug/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_7440-02-0 - Nickel and its compounds;20;0.64;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;227.5;ug/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_7440-43-9 - Cadmium and its compounds;0.2;0.05;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_75-09-2 - Dichloromethane;20;0.5;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_87-68-3 - Hexachlorobutadiene;55;0.036;µg/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Water;CAS_91-20-3 - Naphthalene;1.2;0.005;µg/l
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_118-74-1 - Hexachlorobenzene;10;0.01;µg/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_50-29-3 - DDT, p,p';;0.024;
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_608-93-5 - Pentachlorobenzene;400;0.004;ug/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;6;µg/kg
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_7440-02-0 - Nickel and its compounds;;116;
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_7440-43-9 - Cadmium and its compounds;;105;
+EEEE_5;Coastal water of Muuga-Tallinna-Kakumäe Bay;Biota ;CAS_87-68-3 - Hexachlorobutadiene;55;0.004;µg/kg
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_118-74-1 - Hexachlorobenzene;10;0.6;µg/kg
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_7439-97-6 - Mercury and its compounds;20;13.44;µg/kg
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_7440-02-0 - Nickel and its compounds;730;263.28;ug/kg
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;165.55;ug/kg
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_87-68-3 - Hexachlorobutadiene;55;0.198;µg/kg
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_50-29-3 - DDT, p,p';;0.19;
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_608-93-5 - Pentachlorobenzene;367;0.092;ug/kg
+EETeW_GoF;Territorial waters of Estonia (Gulf of Finland);Biota ;CAS_7439-92-1 - Lead and its compounds;1000;146.22;ug/kg

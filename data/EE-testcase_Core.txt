@@ -1,0 +1,34 @@
+Waterbody;Matrix;Substance;Threshold;Status;Units
+EEEE_1;Water;CAS_120-12-7 - Anthracene;0.4;0.005;µg/l
+EEEE_1;Water;CAS_206-44-0 - Fluoranthene;1;0.005;µg/l
+EEEE_1;Water;CAS_50-32-8 - Benzo(a)pyrene;0.1;0.005;µg/l
+EEEE_1;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;87.5;ug/kg ww
+EEEE_1;Water;CAS_7439-92-1 - Lead and its compounds;7.2;1.08;µg/l
+EEEE_1;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;87.22;µg/kg ww
+EEEE_1;Water;CAS_7439-97-6 - Mercury and its compounds;0.07;0.025;µg/l
+EEEE_1;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;81.44;ug/kg ww
+EEEE_1;Water;CAS_7440-43-9 - Cadmium and its compounds;0.2;0.01;µg/l
+EEEE_1;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;56.8;ug/kg ww
+EEEE_1;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;12.94;µg/kg ww
+EEEE_1;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;202;ug/kg ww
+EEEE_3;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;100.5;ug/kg ww
+EEEE_3;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;88.75;µg/kg ww
+EEEE_3;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;63.5;ug/kg ww
+EEEE_4;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;66.5;ug/kg ww
+EEEE_4;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;62.25;µg/kg ww
+EEEE_4;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;20.5;ug/kg ww
+EEEE_5;Water;CAS_120-12-7 - Anthracene;0.4;0.005;µg/l
+EEEE_5;Water;CAS_206-44-0 - Fluoranthene;1;0.005;µg/l
+EEEE_5;Water;CAS_36643-28-4 - Tributyltin-cation;0.0015;0.0005;µg/l
+EEEE_5;Water;CAS_50-32-8 - Benzo(a)pyrene;0.1;0.005;µg/l
+EEEE_5;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;66.5;ug/kg ww
+EEEE_5;Water;CAS_7439-92-1 - Lead and its compounds;7.2;0.25;µg/l
+EEEE_5;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;12.05;µg/kg ww
+EEEE_5;Water;CAS_7439-97-6 - Mercury and its compounds;0.07;0.05;µg/l
+EEEE_5;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;227.5;ug/kg ww
+EEEE_5;Water;CAS_7440-43-9 - Cadmium and its compounds;0.2;0.05;µg/l
+EEEE_5;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;6;µg/kg ww
+EEEE_5;Biota ;CAS_7440-43-9 - Cadmium and its compounds;;105;
+EETeW_GoF;Biota ;CAS_7439-97-6 - Mercury and its compounds;20;13.44;µg/kg ww
+EETeW_GoF;Biota ;CAS_7440-43-9 - Cadmium and its compounds;160;165.55;ug/kg ww
+EETeW_GoF;Biota ;CAS_7439-92-1 - Lead and its compounds;1000;146.22;ug/kg ww
