@@ -67,7 +67,7 @@ ui <- fluidPage(
             ),
             p("The assesssment is made per waterbody. If no waterbody is specified, all indicators are combined in a single assessment."),
             p("Response=1 (default): status worsens with increasing indicator value. Response=-1: status improves with increasing indicator value"),
-            p("Example data can be found here:", HTML("<a href='data/CHASE_example_DK.txt' target='_blank'>CHASE_example_DK.txt</a>"))
+            p("Example data can be found here:", HTML("<a href='example/CHASE_example_DK.txt' target='_blank'>CHASE_example_DK.txt</a>"))
         )
         
       }),
@@ -93,7 +93,14 @@ ui <- fluidPage(
       tabsetPanel(
         tabPanel("Data", tableOutput("InDatatable")),
         tabPanel("Results", 
-                 uiOutput("Test1"),plotOutput("plot"))   
+                 uiOutput("Test1"),plotOutput("plot")),
+        tabPanel("Download",
+                 p(downloadButton('downloadIndicators', 'Download Indicator Results'),
+                   "CR for each indicator, including aggregated results"),
+                 p(downloadButton('downloadAssessmentUnits', 'Download Assessment Unit Results'),
+                   "Aggregated results per Assessment Unit"))
+
+        
       ) # tabset panel
     )
   )  
@@ -108,7 +115,7 @@ server <- function(input, output, session) {
   output$caption <- renderText(input$num)
   
   
-  addResourcePath("data","./data/")
+  addResourcePath("example","./example/")
   #examplefile<-'CHASE_example.txt'
   #output$downloadData <- downloadHandler(
   #  filename = c(examplefile),
@@ -169,7 +176,7 @@ server <- function(input, output, session) {
     
     levels2<-levels
     levels$x<-0.5
-    levels2$x<-0.5+max(as.numeric(QE$Waterbody))
+    levels2$x<-0.5+nrow(distinct(QE,Waterbody))
     
     levels<-rbind(levels, levels2)
     
@@ -179,13 +186,46 @@ server <- function(input, output, session) {
     Palette1=c("#3399FF", "#66FF66", "#FFFF66","#FF9933","#FF6600" )
     
     p<-ggplot(data=QE,x=Waterbody,y=ConSum) + theme_bw() +
-      geom_point(size=5,data=QE, aes(x=factor(Waterbody), y=ConSum,shape=Matrix, ymin=0)) +
+      geom_point(size=1,shape=20,data=QE, aes(x=factor(Waterbody), y=ConSum, ymin=0),fill=NA) +
       geom_ribbon(data=levels,aes(x=x,ymin=ymin,ymax=ymax,fill=Status),alpha=0.5) +
-      geom_point(size=5,data=QE, aes(x=factor(Waterbody), y=ConSum,shape=Matrix, ymin=0)) +
       scale_fill_manual(name="Status", values=Palette1)+
-      xlab('Waterbody')+ylab('Contamination Sum')
+      geom_point(size=4,data=QE, aes(x=factor(Waterbody), y=ConSum,shape=Matrix, ymin=0),fill=NA) +
+      #scale_shape_manual(values=c(1,3,4)) + 
+      scale_shape_manual(values=c(0,1,2)) + 
+      xlab('Waterbody')+ylab('Contamination Sum') +coord_cartesian(expand=F) + 
+      theme_minimal(base_size=14)
+    
       return(p)
   })
+  
+  
+  output$downloadAssessmentUnits <- downloadHandler(
+    filename = function() { paste0('Results_Assessment_Units.csv') },
+    content = function(file) {
+      write.table(AssessmentUnits(), file, sep=";",row.names=F,na="")
+    })
+
+  output$downloadIndicators <- downloadHandler(
+    filename = function() { paste0('Results_Indicators.csv') },
+    content = function(file) {
+      write.table(IndicatorsDownload(), file, sep=";",row.names=F,na="")
+    })
+  
+  
+  IndicatorsDownload <- reactive({
+    df<-filedata()
+    if (is.null(df)){return(NULL)} 
+    out<-Assessment(df,0)
+    return(out)
+  })
+  AssessmentUnits <- reactive({
+    df<-filedata()
+    if (is.null(df)){return(NULL)} 
+    out<-Assessment(df,2)
+    return(out)
+  })
+  
+  
   
   output$InDatatable <- renderTable({return(InData())})
   output$plot <- renderPlot({return(CHASEplot())})
